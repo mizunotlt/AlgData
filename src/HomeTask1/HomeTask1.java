@@ -2,8 +2,7 @@ package HomeTask1;
 
 public class HomeTask1 {
 
-        public Cortege findMaxCrossSubArray (int[] array, int low, int mid, int high){
-
+    public Cortege findMaxCrossSubArray (int[] array, int low, int mid, int high){
         int leftSum = array[mid];
         int sum = leftSum;
         int maxLeftIndex = mid;

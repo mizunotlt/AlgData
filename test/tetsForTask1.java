@@ -6,15 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class tetsForTask1 {
 
-    public int[] subArray(int[] array, int low, int high){
-        int[] result = new int[high - low + 1];
-        for(int i = low; i <= high; i++){
-            result[i] = array[i];
-        }
-        return result;
-    }
-
-
     @Test
     void testFindMaxSubArray() {
         HomeTask1 test = new HomeTask1();

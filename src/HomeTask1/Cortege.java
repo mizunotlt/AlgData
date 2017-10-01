@@ -1,8 +1,6 @@
 package HomeTask1;
 
 
-import java.util.Objects;
-
 public class Cortege {
     int low;
     int high;
@@ -30,8 +28,8 @@ public class Cortege {
         Cortege cort = (Cortege) o;
         if (o == null || getClass() != o.getClass()) return false;
         if (this == o) return true;
-        return ((Objects.equals(this.low, cort.low)) && (Objects.equals(this.high, cort.high))
-                && (Objects.equals(this.sum, cort.sum)));
+        return ((this.low ==cort.low)  && (this.high ==cort.high)
+                && (this.sum == cort.sum));
     }
 }
 
